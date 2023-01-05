@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1><img  src="imagens/Vector.png" alt="logo Alura"></h1>
+    </header>
+    <main>
+        <section class="entrada">
+            
+            <textarea name="" id="texto" class="texto" cols="80" rows="10" required placeholder="Digite seu Texto aqui..."></textarea>
+                <div>
+                    <ul>
+                        <li>
+                            <a class="observacao" href="">
+                                <img src="imagens/exclamação.png" alt="">Apenas letras minúsculas e sem acento
+                            </a>
+                        </li>
+                    </ul>
+            
+                </div>
+        </section>
+        <div class="container">
+            <section id="saida">
+                 <p class="msg">Seu texto aparecerá aqui....</p>
+                 <img class="img-lupa" src="imagens/High quality products 1 1.png" alt="Uma pessoa com uma lupa e um diamante do lado">
+                 <img  class="img-msgm" src="imagens/Nenhuma mensagem encontrada.png" alt="Nenhuma mensagem encontrada">
+            
+                 <!--<div id="saida-texto">
+                    <button onclick="copiar()" class="copy" id="copiar">Copiar</button>
+                </div> -->
+            </section>
+        </div>
+        <div class="botoes">
+            <button onclick="criptografar()" class="cripto">Criptografar</button>
+
+            <button onclick="descriptografar()" class="descripto">Descriptografar</button>
+
+            
+        </div>
+    </main>
+    <footer class="rodape">
+        <p class="copyw">&copy; Site feito por Rafael do Carmo - Desafio Oracle e Alura</p>
+        <div class="redes-sociais">
+            <a href="https://github.com/RafaelSPro" target="_blank"><img  class="github" src="imagens/icone-github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/rafael-do-carmo-27b500ba/" target="_blank"><img class="linkedin" src="imagens/icone-linkedin.png" alt=""></a>
+        
+        </div>
+
+    </footer>
+  <script src="decodificador.js"></script>
+</body>
+</html>

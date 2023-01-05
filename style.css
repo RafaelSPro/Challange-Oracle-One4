@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+header {
+    padding: 30px 60px;
+}
+
+body {
+    background-color: #F3F5FC;
+    width: 100%;
+    height: 100vh;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.texto {
+    border: none;
+    background: #F3F5FC;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    margin: 20px 20px ;
+}
+
+.texto:focus {
+    border: 0 none;
+    box-shadow: 0;
+    outline: 0;
+}
+
+.observacao {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 70%;
+    font-size: 15px;
+    text-align: center;
+    cursor: default;
+    
+    
+}
+
+.observacao:hover {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+#saida {
+    background: white;
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    margin: 30px 15px 10px 0;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#saida p {
+    text-align: center;
+}
+
+.img-lupa, .img-msgm {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.botoes {
+    padding: 15px;
+    position: absolute;
+    left: 20%;
+}
+
+.cripto, .descripto {
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5px 8px;
+    font-size: 15px;
+    
+    
+}
+
+.cripto {
+    background-color: #0A3871;
+    color: white;
+    
+}
+
+.cripto:hover {
+    background: #1264c9 ;
+    cursor: pointer;
+}
+
+.descripto {
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+.descripto:hover {
+    background: #959aa0 ;
+    cursor: pointer;
+}
+
+#saida-texto {
+    width: 95%;
+    height: 90%;
+    border: none;
+}
+
+#saida-texto:focus{
+    border: 0 none;
+    box-shadow: 0;
+    outline: 0;
+}
+
+.copy {
+    margin-top: 15px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color:  #0A3871;
+    font-size: 15px;
+}
+
+.copy:hover {
+    background-color: rgb(211, 206, 206);
+    cursor: pointer;
+}
+
+
+/* Footer CSS */
+
+.rodape {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(231, 228, 228);
+    color: black;
+    font-size: 17px;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    height: 20px;
+    width: 15px;
+    margin: auto;
+    margin-left: 10px;
+   
+}
+
+.linkedin {
+    height: 20px;
+    width: 15px;
+    margin-left: 10px;
+    
+}
