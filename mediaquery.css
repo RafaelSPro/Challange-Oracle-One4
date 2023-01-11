@@ -61,14 +61,14 @@
 }
 
 .copyw {
-   font-size: 14px;
+   font-size: 12px;
 
 }
 
 .github, .linkedin {
     height: 15px;
-    width: 15px;
-    margin-left: 5px;
+    width: 10px;
+    margin-left: 3px;
 }
 
 .texto, #saida-texto:focus {
