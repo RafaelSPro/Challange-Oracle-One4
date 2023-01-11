@@ -56,7 +56,19 @@
        align-items: center;
        position: relative;
        width: 100%;
+       top: 100%;
        
+}
+
+.copw {
+   font-size: 13px;
+
+}
+
+.github, .linkedin {
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
 }
 
 .texto, #saida-texto:focus {
