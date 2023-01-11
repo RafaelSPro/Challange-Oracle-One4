@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+
+    .observacao {
+       position: relative;
+       left: 5%;
+        
+    }
+
+    .entrada {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 450px;
+        text-align: center;
+    }
+
+    .texto {
+        width: 50%;
+        text-align: center;
+        font-size: 17px;
+        
+    }
+
+    #saida {
+        position: absolute;
+        top: 100%;
+        left:  20%;
+        height: 450px;
+        width: 50%;
+        margin: 10px 0 0 0;
+    }
+
+    .img-lupa {
+        display: none;
+    }
+
+
+    .botoes {
+        padding: 8px;
+    }
+
+    .cripto, .descripto, .copy {
+        height: 40px;
+        width: 200px;
+        margin: 10px 5px 10px 25px;
+    }
+
+    .rodape {
+       display: flex;
+       flex-direction: row;
+       justify-items: center;
+       align-items: center;
+       position: relative;
+       width: 100%;
+       
+}
+
+.texto, #saida-texto:focus {
+    border: 0 none;
+    box-shadow: 0;
+    outline: 0;
+}
+    
+}
