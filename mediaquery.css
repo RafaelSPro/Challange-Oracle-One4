@@ -52,22 +52,22 @@
     .rodape {
        display: flex;
        flex-direction: row;
-       justify-items: center;
+       justify-items: flex-start;
        align-items: center;
        position: relative;
        width: 100%;
        top: 100%;
-       
-}
+    }
 
 .copyw {
-   font-size: 12px;
+   font-size: 11px;
+   
 
 }
 
 .github, .linkedin {
     height: 15px;
-    width: 10px;
+    width: 9px;
     margin-left: 3px;
 }
 
