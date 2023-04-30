@@ -1,6 +1,6 @@
 # Challange-Oracle-One4
 <br>
-<h1>Decodificador Alura<h1>
+<h1 align="center">Decodificador Alura<h1>
 <br>
 <br>
 <h2>Desafio realizado no curso de front end da Oracle em paceria com a Alura<h2>
@@ -11,7 +11,11 @@
  <p>- CSS<p>
  <p>- JAVASCRIPT<p>
  
-  <h3>Para Desktop</h3>  
+<h3>Para Desktop</h3>  
 <img src="https://github.com/RafaelSPro/Challange-Oracle-One4/blob/main/imagens/cripto.png?raw=true"/>
+<br>
+<h3>Para mobile</h3>
+<img src="https://github.com/RafaelSPro/Challange-Oracle-One4/blob/main/imagens/Celular.PNG?raw=true"/>
+ 
 
 
